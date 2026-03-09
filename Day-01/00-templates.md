@@ -27,10 +27,9 @@ Use when:
 Majority Element
 
 Boiler Plate:
+```cpp
 int candidate = 0;
 int count = 0;
-
-```cpp
 for(int num : nums){
 
     if(count == 0)
